@@ -1,0 +1,7 @@
+cargo:rerun-if-changed=C:\Users\nedon\OneDrive\Desktop\CSC305-rust\barest\Cargo.toml
+cargo:rustc-link-search=native=C:\Users\nedon\OneDrive\Desktop\CSC305-rust\barest\target\bootimage\bootloader\x86_64-bootloader\release\build\bootloader-b251b2673cd159b3\out
+cargo:rustc-link-lib=static=kernel_bin-barest
+cargo:rerun-if-env-changed=KERNEL
+cargo:rerun-if-env-changed=KERNEL_MANIFEST
+cargo:rerun-if-changed=\\?\C:\Users\nedon\OneDrive\Desktop\CSC305-rust\barest\target\x86_64-bootimage-barest\debug\barest
+cargo:rerun-if-changed=build.rs
