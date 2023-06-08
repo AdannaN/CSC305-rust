@@ -55,4 +55,5 @@ fn main() {
     // // Or a default will be used
     // let default_float = 3.0;
     // let default_integer = 7;
+    hello_lib::run9();
 }
